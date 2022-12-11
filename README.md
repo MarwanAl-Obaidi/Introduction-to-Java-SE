@@ -141,3 +141,24 @@ Program is written to a class called DecimalCalculations.
 Create a Java-program that asks for a double type floating point number and then prints the absolute value of the number as shown in the example print. Program is to be implemented with the use of conditional operator “?”, using if statement is forbidden.
 
 Program is written to a class called AbsoluteValue.
+
+## ex_6_1
+Create a program that asks for a positive integer (zero will not do) and check if the number is even or odd. If number is even, “Number X is even” is printed on screen and “Number X is odd” is printed if the number is odd. X marks the number user types in. If the given number is zero or a negative number, program prints “Input is invalid” on screen and program execution ends.
+
+Hint: Number is even if its division remainder is 0 when divided by 2.
+
+Program is written to a class called OddOrEven.
+
+## ex_6_2
+Create a program that asks for an integer n (n>0) and prints integers from n to 0 below each other. This means that a line change must be printed after each number. for statement is to be used for printing the numbers. If user types in a negative number or zero, the text “Input is not a positive integer.” is printed on screen and program execution ends.
+
+Program is written to a class called ForLoop.
+
+## ex_6_4
+
+
+Create a calculator program which lets the user choose what calculation to perform. First the program asks what calculation is to be performed. Then the program asks for two integers, performs the chosen calculation between the given numbers and prints the result on screen. The choosing of the calculation is to be done using switch statement. If, when choosing the calculation type, the user input is not a number between 1 and 5, program prints “Invalid choice” and program execution ends. Hence the user will not be prompted to input two integers if the original calculation choice is not a number between 1 and 5.
+
+Hint:A type conversion must be done when printing the result of a division in order to include the decimal part of the result.
+
+Program is written to a class called Calculation.
