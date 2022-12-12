@@ -155,10 +155,40 @@ Create a program that asks for an integer n (n>0) and prints integers from n to 
 Program is written to a class called ForLoop.
 
 ## ex_6_4
-
-
 Create a calculator program which lets the user choose what calculation to perform. First the program asks what calculation is to be performed. Then the program asks for two integers, performs the chosen calculation between the given numbers and prints the result on screen. The choosing of the calculation is to be done using switch statement. If, when choosing the calculation type, the user input is not a number between 1 and 5, program prints “Invalid choice” and program execution ends. Hence the user will not be prompted to input two integers if the original calculation choice is not a number between 1 and 5.
 
 Hint:A type conversion must be done when printing the result of a division in order to include the decimal part of the result.
 
 Program is written to a class called Calculation.
+
+## ex_13_1
+Your task is to write the class CarTest which is used to create an object from Bus class and Truck class. In addition you must call the class methods in the main method so that the program print is the same as the example print.
+
+Program to complete:
+
+```
+class Car {
+    public void honk() {
+        System.out.println("honkhonk");
+    }
+}
+
+class Bus extends Car {
+    public void getPassengers() {
+        System.out.println("All aboard.");
+    }
+}
+
+class Truck extends Car {
+    public void unload() {
+        System.out.println("Load unloaded");
+    }
+}
+```
+
+Note: Above code is not to be copied to the return field. Write only the CarTest class and declare a main method for it.
+
+## ex_17_1
+Your task is to write a program that reads the names and student numbers from students.txt and prints them on screen. Every student has an individual row. Name and student number are separated with space. Use Scanner class to read the file.
+
+Program is written to StudentsInfile class.
